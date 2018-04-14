@@ -1,8 +1,12 @@
+<!DOCTYPE html>
 <html>
-
-<head>The best web page ever</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Progressive Times</title>
+    <link rel="manifest" href="manifest.json">  ❶
+  </head>
+  <body>
+    
     <script>
         // 注册 service worker
         if ('serviceWorker' in navigator) {
@@ -15,6 +19,5 @@
             });
         }
     </script>
-</body>
-
+  </body>
 </html>
